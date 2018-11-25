@@ -24,6 +24,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.4.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>com.s3d</groupId>
 			<artifactId>dd4j-base</artifactId>
 			<version>${project.version}</version>

@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import com.s3d.dd4j.exception.DingException;
 import com.s3d.dd4j.model.DingAccount;
+import com.s3d.dd4j.model.Token;
 import com.s3d.dd4j.qy.token.DingTokenCreator;
 import com.s3d.dd4j.setting.Ding4jSettings;
 import com.s3d.dd4j.token.TokenManager;
@@ -32,6 +33,8 @@ public class TokenTest {
 
 	@Test
 	public void test() throws DingException {
+		Token token = tokenManager.getCache();
+		System.out.println(token.getAccessToken());
 		Assert.assertNotNull(tokenManager.getCache());
 	}
 }

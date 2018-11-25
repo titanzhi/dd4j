@@ -93,12 +93,12 @@ public class DingRequestExecutor {
 			throws DingException {
 		request.setParams(httpParams);
 		try {
-			logger.info("weixin request >> " + request.getMethod() + " "
+			logger.info("ding request >> " + request.getMethod() + " "
 					+ request.getURI().toString());
 			HttpResponse httpResponse = httpClient.execute(request);
 			HttpHeaders headers = httpResponse.getHeaders();
 			DingResponse response = new DingResponse(httpResponse);
-			logger.info("weixin response << " + httpResponse.getProtocol()
+			logger.info("ding response << " + httpResponse.getProtocol()
 					+ httpResponse.getStatus() + ":" + response.getAsString());
 			String contentType = headers.getFirst(HttpHeaders.CONTENT_TYPE);
 			String disposition = headers
