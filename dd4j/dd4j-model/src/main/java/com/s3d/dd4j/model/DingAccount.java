@@ -1,4 +1,4 @@
-package com.s3d.dd4j;
+package com.s3d.dd4j.model;
 
 import java.io.Serializable;
 

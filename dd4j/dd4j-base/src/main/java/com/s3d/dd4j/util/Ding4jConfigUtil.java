@@ -5,7 +5,7 @@ import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
 import com.alibaba.fastjson.JSON;
-import com.s3d.dd4j.DingAccount;
+import com.s3d.dd4j.model.DingAccount;
 
 
 public class Ding4jConfigUtil {
