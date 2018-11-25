@@ -6,4 +6,8 @@
   <packaging>pom</packaging>
   <name>dd4j</name>
   <description>钉钉企业开发工具包	</description>
+  <modules>
+  	<module>dd4j-base</module>
+  	<module>dd4j-message</module>
+  </modules>
 </project>
