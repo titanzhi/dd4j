@@ -9,5 +9,6 @@
   <modules>
   	<module>dd4j-base</module>
   	<module>dd4j-message</module>
+  	<module>dd4j-model</module>
   </modules>
 </project>
